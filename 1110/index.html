@@ -13,16 +13,25 @@
         <p>Horário da consulta</p>
         <input type="time">
         <p>Quantas consultas deseja marcar?</p>
-        <input type="number"><br>
-        <p>Qual o dia da semana?</p>
-        <input type="checkbox"> <label for="Segunda">Segunda</label> <br>
-        <input type="checkbox"> <label for="Terça">Terça</label> <br>
-        <input type="checkbox"> <label for="Quarta">Quarta</label> <br>
-        <input type="checkbox"> <label for="Quinta">Quinta</label> <br>
-        <input type="checkbox"> <label for="Sexta">Sexta</label> <br>
+        <input type="number"><br><br>
+        <fieldset>
+            <legend>Dia da semana</legend>
+            <p>Qual o dia da semana?</p>
+            <input type="checkbox" name="semana"> <label for="Segunda">Segunda</label> <br>
+            <input type="checkbox" name="semana"> <label for="Terça">Terça</label> <br>
+            <input type="checkbox" name="semana"> <label for="Quarta">Quarta</label> <br>
+            <input type="checkbox" name="semana"> <label for="Quinta">Quinta</label> <br>
+            <input type="checkbox" name="semana"> <label for="Sexta">Sexta</label> <br>
+        </fieldset>
+        <label for="">Indicado por</label><br>
+        <input type="text" value="Rodrigo" disabled>
+        <br><br>
+        <label for="">maxlength</label>
+        <input type="text" maxlength="5"><br><br>
+        <label for="">size</label>
+        <input type="text" size="10"><br><br>
 
-        <p></p>
-
+        <input type="reset" value="Apagar"><br><br>
         <input type="submit">
     </form>
 </body>
