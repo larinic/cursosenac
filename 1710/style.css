@@ -5,13 +5,22 @@ padding: 0;
 body{
     background-color: darkgray;
 }
-p{
-    color:rgb(121, 117, 121);
-    background-color: black;
-    width: 40%;
-    float: left;
-}
-#especial{
-    margin-left: 10px;
-}
+
 /* teste de comentário */
+
+div{
+    height: 80px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#primeira{
+    background-color: azure;
+    overflow: scroll;
+}
+
+#segunda{
+    background-color: darkkhaki;
+    margin-top: 10px;
+}
