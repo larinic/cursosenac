@@ -5,7 +5,15 @@ padding: 0;
 body{
     background-color: darkgray;
 }
-
+/* p{
+    color:rgb(49, 76, 165);
+    background-color: black;
+    width: 40%;
+    float: left;
+}
+#especial{
+    margin-left: 10px;
+} */
 /* teste de comentário */
 
 div{
@@ -20,7 +28,6 @@ div{
     overflow: scroll;
 }
 
-#segunda{
-    background-color: darkkhaki;
+#segunda{background-color: darkkhaki;
     margin-top: 10px;
 }
