@@ -1,11 +1,11 @@
 body{
-    background-color: azure;
+    background-color: rgb(226, 231, 231);
 }
 h1{
     color:rgb(24, 93, 163); font-size:40px
 }
 a{
-    color: brown; font-size: 20px;
+    color: rgb(42, 165, 138); font-size: 20px;
 }
 p{
     font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;
