@@ -1,15 +1,17 @@
-*{
+*{                /* css reset */
 margin: 0;
+padding: 0;
 }
 body{
     background-color: darkgray;
 }
 p{
-    color:orchid;
+    color:rgb(121, 117, 121);
     background-color: black;
     width: 40%;
     float: left;
 }
-especial{
+#especial{
     margin-left: 10px;
 }
+/* teste de comentário */
